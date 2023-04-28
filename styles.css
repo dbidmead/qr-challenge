@@ -54,3 +54,34 @@ p {
     font-size: 10px;
 }
 
+@media (max-width: 500px) {
+    h1 {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 15px;
+    }
+    
+    .panel {
+        width: 320px;
+        height: 500px;
+        border-radius: 18px;
+    }
+    
+    .img {
+        width: 285px;
+        height: 285px;
+    }
+    
+    .header-container {
+        width: 265px;
+        margin-top: -8px;
+    }
+    
+    .paragraph-container {
+        width: 265px;
+        margin-top: -8px;
+    }
+}
+
